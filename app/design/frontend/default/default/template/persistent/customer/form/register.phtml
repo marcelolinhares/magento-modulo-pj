@@ -57,8 +57,6 @@
                         <input type="text" name="email" id="email_address" value="<?php echo $this->escapeHtml($this->getFormData()->getEmail()) ?>" title="<?php echo $this->__('Email Address') ?>" class="input-text validate-email required-entry" />
                     </div>
                 </li>
-
-<!-- customização do módulo pessoa jurídica --> 
                 <li>
                     <label for="type_person"><?php echo $this->__('Tipo de Pessoa') ?></label>
 <div class="input-box">
@@ -75,8 +73,6 @@
                         <input type="text" name="pj_cnpj" id="pj_cnpj" value="<?php echo $this->escapeHtml($this->getFormData()->getCnpj()) ?>" title="<?php echo $this->__('CNPJ') ?>" class="input-text  required-entry" />
                     </div>
                 </li>
-
-<!-- fim da customização --> 
                 <?php if ($this->isNewsletterEnabled()): ?>
                 <li class="control">
                     <div class="input-box">
