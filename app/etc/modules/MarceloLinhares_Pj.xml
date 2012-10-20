@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * MarceloLinhares
+ * @category   MarceloLinhares
+ * @package    MarceloLinhares_Pj
+ * @copyright  Copyright (c) 2010-2011 Unicode Systems. (http://www.unicodesystems.in)
+ * @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ 
+  Módulo para habilitar cadastro de pessoa jurídica no Magento
+
+ */-->
+<config>
+    <modules>
+        <MarceloLinhares_Pj>
+            <active>true</active>
+            <codePool>community</codePool>
+        </MarceloLinhares_Pj>
+    </modules>
+</config>
