@@ -3,15 +3,32 @@
 <config>
     <modules>
         <MarceloLinhares_Pj>
-            <version>0.1.1</version>
+            <version>0.1.3</version>
         </MarceloLinhares_Pj>
     </modules>
+    <admin>
+        <fieldsets>
+            <customer_dataflow>
+                <type_person><billing>1</billing><shipping>1</shipping></type_person>
+            </customer_dataflow>
+        </fieldsets>
+    </admin>
     <global>
          <models>
             <pj>
                 <class>MarceloLinhares_Pj_Model</class>
             </pj>
         </models>
+        <fieldsets>
+            <customer_account>
+                <type_person>                   
+                    <to_quote>*</to_quote>
+                </type_person>
+            </customer_account>
+           <checkout_onepage_quote>
+                <type_person><to_customer>*</to_customer></type_person>
+             </checkout_onepage_quote>
+        </fieldsets>
         <resources>
             <pj_setup>
                 <setup>
